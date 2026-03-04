@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Urban Eco-Living | Devenir bénévole ou partenaire</title>
+  <meta name="description"
+    content="Contactez l'association Urban Eco-Living pour devenir bénévole, donateur ou partenaire sur des projets zéro déchet et d'agriculture urbaine." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- =========================
+       Header
+       ========================= -->
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a href="index.html" class="site-logo">
+        <span class="site-logo__badge">Eco</span>
+        <span>Urban Eco‑Living</span>
+      </a>
+
+      <nav class="site-nav" aria-label="Navigation principale">
+        <a class="site-nav__link" href="index.html">Accueil</a>
+        <a class="site-nav__link" href="workshops.html">Ateliers</a>
+        <a class="site-nav__link" href="map.html">Carte des lieux</a>
+        <a class="site-nav__link" href="contact.html">Contact</a>
+      </nav>
+
+      <div class="site-header__actions">
+        <a href="#contact" class="btn btn--outline">Rejoindre le mouvement</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- =========================
+         Intro Contact
+         ========================= -->
+    <section class="hero">
+      <div class="container main-grid">
+        <div>
+          <p class="hero__eyebrow">Nous écrire</p>
+          <h1 class="heading-xl hero__title">
+            Rejoindre Urban Eco-Living et faire sa part.
+          </h1>
+          <p class="hero__subtitle">
+            Si tu as envie de t’impliquer dans le zéro déchet, le jardinage urbain ou tout simplement de donner un coup
+            de main de temps en temps, tu es clairement au bon endroit. L’association avance grâce à des personnes
+            très différentes : étudiant·e·s, habitant·e·s du quartier, voisins curieux, petits et grands débutants.
+          </p>
+          <p class="text-muted" style="margin-top: 0.8rem; max-width: 34rem;">
+            Ce formulaire n’est pas un engagement “officiel”. Il nous sert surtout à mieux te connaître, comprendre ce
+            que tu aimerais faire, et voir comment on peut construire quelque chose qui te ressemble vraiment.
+          </p>
+        </div>
+
+        <aside aria-label="Informations de contact secondaires">
+          <article class="card">
+            <p class="card__eyebrow">Quelques infos pratiques</p>
+            <h2 class="card__title">Combien de temps ça prend ?</h2>
+            <p class="text-muted">
+              Il n’y a pas de quantité de temps “idéale”. Certain·e·s viennent surtout sur les événements, d’autres
+              donnent un coup de main à la communication, au bricolage des bacs de jardin, à l’animation d’un atelier,
+              ou encore à la recherche de lieux partenaires.
+            </p>
+            <p class="text-muted" style="margin-top: 0.75rem;">
+              On essaie de toujours adapter les rôles aux disponibilités et aux envies. On discute simplement par
+              e‑mail après ta candidature, pour voir ce qui est le plus cohérent pour toi.
+            </p>
+          </article>
+        </aside>
+      </div>
+    </section>
+
+    <!-- =========================
+         Formulaire de bénévolat / partenariat
+         ========================= -->
+    <section class="section section--alt" id="contact">
+      <div class="container feature-grid">
+        <div>
+          <p class="badge-pill">Formulaire de candidature</p>
+          <h2 class="heading-md" style="margin-top: 0.75rem; margin-bottom: 0.5rem;">
+            Devenir bénévole, donateur ou partenaire.
+          </h2>
+          <p class="text-muted" style="max-width: 34rem;">
+            Merci de remplir ces quelques champs le plus simplement possible. Il n’y a pas de “bonne” réponse : le but
+            est juste de comprendre d’où tu viens, ce qui t’intéresse, et comment tu te vois dans l’aventure Urban
+            Eco-Living.
+          </p>
+        </div>
+
+        <div>
+          <form class="form" action="#" method="post">
+            <div class="form__row">
+              <div class="form__field">
+                <label class="form__label" for="prenom">Prénom *</label>
+                <input class="form__control" type="text" id="prenom" name="prenom" required />
+              </div>
+              <div class="form__field">
+                <label class="form__label" for="nom">Nom *</label>
+                <input class="form__control" type="text" id="nom" name="nom" required />
+              </div>
+            </div>
+
+            <div class="form__row">
+              <div class="form__field">
+                <label class="form__label" for="email">Email *</label>
+                <input class="form__control" type="email" id="email" name="email" required />
+              </div>
+              <div class="form__field">
+                <label class="form__label" for="ville">Ville *</label>
+                <input class="form__control" type="text" id="ville" name="ville" required />
+              </div>
+            </div>
+
+            <div class="form__field">
+              <label class="form__label" for="role">Rôle souhaité *</label>
+              <select class="form__control" id="role" name="role" required>
+                <option value="">Sélectionner un rôle</option>
+                <option value="benevole">Bénévole</option>
+                <option value="donateur">Donateur</option>
+                <option value="partenaire">Partenaire</option>
+              </select>
+            </div>
+
+            <div class="form__field">
+              <label class="form__label" for="motivation">Motivation *</label>
+              <textarea class="form__control" id="motivation" name="motivation" rows="5" required
+                placeholder="Explique en quelques phrases pourquoi tu souhaites rejoindre ou soutenir l’association."></textarea>
+            </div>
+
+            <button type="submit" class="btn">
+              Envoyer ma candidature 🌱
+            </button>
+
+            <p class="form__helper">
+              Nous répondons en général sous quelques jours. Si tu ne reçois rien, n’hésite pas à nous relancer ou à
+              venir nous voir directement lors d’un atelier.
+            </p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- =========================
+       Footer
+       ========================= -->
+  <footer class="site-footer">
+    <div class="site-footer__inner">
+      <p>&copy; <span id="year"></span> Urban Eco‑Living. Tous droits réservés.</p>
+      <div class="site-footer__links">
+        <a href="index.html#highlights" class="site-footer__link">L’association</a>
+        <a href="workshops.html" class="site-footer__link">Ateliers</a>
+        <a href="map.html" class="site-footer__link">Carte des lieux</a>
+        <a href="contact.html" class="site-footer__link">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+
+</html>
+
