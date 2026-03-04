@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Carte d'Impact - Points de Collecte | Urban Eco-Living</title>
+  <meta name="description"
+    content="Carte d'impact des points de collecte à Paris pour le compost, le verre, les textiles, les piles, l'électronique et les déchets végétaux, repérés par l'association Urban Eco-Living." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a href="index.html" class="site-logo">
+        <span class="site-logo__badge">Eco</span>
+        <span>Urban Eco‑Living</span>
+      </a>
+      <nav class="site-nav" aria-label="Navigation principale">
+        <a class="site-nav__link" href="index.html">Accueil</a>
+        <a class="site-nav__link" href="workshops.html">Ateliers</a>
+        <a class="site-nav__link" href="map.html">Carte des lieux</a>
+        <a class="site-nav__link" href="contact.html">Contact</a>
+      </nav>
+      <div class="site-header__actions">
+        <a href="#carte" class="btn btn--outline">Voir la carte</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container feature-grid">
+        <div>
+          <p class="hero__eyebrow">Carte d'impact</p>
+          <h1 class="heading-xl hero__title">
+            Carte d'Impact - Points de Collecte.
+          </h1>
+          <p class="hero__subtitle">
+            Cette page est une version "maquette" d'une carte de Paris, pour montrer quelques lieux où l'on peut
+            déposer ses déchets triés : compost, verre, textiles, piles, appareils électroniques, végétaux…
+          </p>
+          <p class="text-muted" style="margin-top: 0.8rem; max-width: 34rem;">
+            Dans un vrai projet, la carte serait connectée à des données ouvertes ou à un outil comme OpenStreetMap.
+            Ici, on se concentre surtout sur la manière de présenter les lieux et leurs horaires de manière claire.
+          </p>
+        </div>
+
+        <aside aria-label="Carte des points de collecte" id="carte">
+          <article class="card">
+            <p class="card__eyebrow">Vue d'ensemble</p>
+            <h2 class="card__title">Carte (fictive) des points de collecte.</h2>
+            <div class="media-hover" style="margin-top: 1rem;">
+              <div
+                style="height: 300px; border-radius: 18px; background: #7abf7a; display: flex; flex-direction: column; align-items: center; justify-content: center; color: #0f2410; text-align: center; padding: 1.5rem; gap: 0.5rem;">
+                <div style="font-size: 2.6rem;">🗺️</div>
+                <p style="font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; font-size: 0.8rem;">
+                  Carte fictive des points de collecte
+                </p>
+                <p style="font-size: 0.9rem;">
+                  Ici, on pourrait afficher une vraie carte interactive avec les points de collecte repérés par
+                  l'association.
+                </p>
+              </div>
+            </div>
+          </article>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section section--alt">
+      <div class="container">
+        <header style="margin-bottom: 2.2rem;">
+          <p class="badge-pill">Points repérés par l'asso</p>
+          <h2 class="heading-md" style="margin-top: 0.75rem; margin-bottom: 0.5rem;">
+            Quelques points de collecte à Paris.
+          </h2>
+          <p class="text-muted" style="max-width: 40rem;">
+            La liste ci-dessous montre comment présenter des lieux de tri sélectif dans un site d'association, avec
+            les types de déchets acceptés et les horaires d'ouverture.
+          </p>
+        </header>
+
+        <div style="margin-bottom: 2rem;" class="media-hover">
+          <img src="https://i.ibb.co/N68tK4Kc/10.jpg" alt="Jardin urbain avec bacs de collecte"
+            style="width:100%; max-height: 350px; border-radius:12px; object-fit:cover;" />
+        </div>
+
+        <div class="grid grid--3">
+          <article class="card">
+            <p class="card__eyebrow">Paris 17ᵉ</p>
+            <h3 class="card__title">Jardin des Batignolles</h3>
+            <p class="text-muted">
+              Point de collecte calme au bord du parc, pratique pour déposer son seau de compost après les courses.
+            </p>
+            <div class="card__meta" style="margin-top: 1rem;">
+              <span class="card__tag">Compost</span>
+              <span class="card__tag">Verre</span>
+              <span>🕒 Lun‑Sam 8h‑20h</span>
+            </div>
+          </article>
+
+          <article class="card">
+            <p class="card__eyebrow">Paris 10ᵉ / 11ᵉ</p>
+            <h3 class="card__title">Place de la République</h3>
+            <p class="text-muted">
+              Gros point de passage, idéal pour déposer des textiles et des piles même tard le soir.
+            </p>
+            <div class="card__meta" style="margin-top: 1rem;">
+              <span class="card__tag">Textiles</span>
+              <span class="card__tag">Piles</span>
+              <span>🕒 24h/24</span>
+            </div>
+          </article>
+
+          <article class="card">
+            <p class="card__eyebrow">Paris 12ᵉ</p>
+            <h3 class="card__title">Marché d'Aligre</h3>
+            <p class="text-muted">
+              À côté du marché, ce point permet de valoriser les restes alimentaires et le papier après les courses.
+            </p>
+            <div class="card__meta" style="margin-top: 1rem;">
+              <span class="card__tag">Alimentaire</span>
+              <span class="card__tag">Papier</span>
+              <span>🕒 Mar‑Dim 7h‑13h</span>
+            </div>
+          </article>
+
+          <article class="card">
+            <p class="card__eyebrow">Paris 20ᵉ</p>
+            <h3 class="card__title">Square de Ménilmontant</h3>
+            <p class="text-muted">
+              Compost de quartier animé par des habitant·e·s, avec des permanences régulières pour les nouveaux.
+            </p>
+            <div class="card__meta" style="margin-top: 1rem;">
+              <span class="card__tag">Compost</span>
+              <span>🕒 Mer, Sam 10h‑18h</span>
+            </div>
+          </article>
+
+          <article class="card">
+            <p class="card__eyebrow">Paris 18ᵉ</p>
+            <h3 class="card__title">Halle Pajol</h3>
+            <p class="text-muted">
+              Lieu très fréquenté par les étudiant·e·s, avec une zone de tri pour déposer du petit électronique et
+              du verre.
+            </p>
+            <div class="card__meta" style="margin-top: 1rem;">
+              <span class="card__tag">Électronique</span>
+              <span class="card__tag">Verre</span>
+              <span>🕒 Lun‑Ven 9h‑19h</span>
+            </div>
+          </article>
+
+          <article class="card">
+            <p class="card__eyebrow">Paris 12ᵉ</p>
+            <h3 class="card__title">Coulée Verte</h3>
+            <p class="text-muted">
+              Tout au long de la promenade, plusieurs bacs permettent de déposer des déchets végétaux issus du
+              jardinage de balcon.
+            </p>
+            <div class="card__meta" style="margin-top: 1rem;">
+              <span class="card__tag">Végétaux</span>
+              <span>🕒 24h/24</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="site-footer__inner">
+      <p>&copy; <span id="year"></span> Urban Eco‑Living. Tous droits réservés.</p>
+      <div class="site-footer__links">
+        <a href="index.html#highlights" class="site-footer__link">L'association</a>
+        <a href="workshops.html" class="site-footer__link">Ateliers</a>
+        <a href="map.html" class="site-footer__link">Carte des lieux</a>
+        <a href="contact.html" class="site-footer__link">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
